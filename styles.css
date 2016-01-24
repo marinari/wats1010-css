@@ -2,15 +2,26 @@
 /* One style is provided as example. */
 
 html {
-	font-family: sans-serif;
-	padding-top: 30px;
 	background: #F0F2EB;
 	max-width: 1200px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+}
+
+p {
+	color: #FF4242;
 }
 
 h1 {
-    font-size: 20px;
-    color:#e5fff9;
+    font-size: 30px;
+    color: #FF4242;
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+	color: #FF4242;
 }
 
 li a {
@@ -22,12 +33,12 @@ header {
 	margin: 0 auto;
 	background-color: #E1EDB9;
 	text-align: center;
-	height: 50px;
+	height: 60px;
 
 }
 
 .page-header p {
-	line-height: 10%;
+	line-height: 0.5px;
 }
 
 
@@ -69,6 +80,9 @@ section {
 	background-position: center;
 	margin-left: 35%;
 	width: 60%;
+	opacity: 0.8;
+	color: #062351;
+	text-align: justify;
 }
 
 
@@ -87,7 +101,7 @@ section {
 	float: left;
 	width: 30%;
 	padding: 10px;
-	margin-top: -57%;
+	margin-top: -50%;
 	border-radius: 5px;
 }
 
