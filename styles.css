@@ -22,7 +22,12 @@ header {
 	margin: 0 auto;
 	background-color: red;
 	text-align: center;
+	height: 50px;
 
+}
+
+.page-header p {
+	line-height: 10%;
 }
 
 
@@ -33,10 +38,22 @@ aside {
 	margin-right: 30px;
 	padding: 10px;
 	border-radius: 5px;
+	margin-top: 15px;
 }
 
 .more-info ul li {
 	list-style-type: none;
+}
+
+.social-links li {
+	display: inline;
+}
+
+.social-links li a {
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	padding: 5px;
 }
 
 aside img{
@@ -57,6 +74,8 @@ section {
 
 .content-footer {
 	background-color: white;
+	line-height: 10px;
+	height: 35px;
 }
 
 .page-footer {
