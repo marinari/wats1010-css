@@ -4,9 +4,35 @@
 html {
 	background: #F0F2EB;
 	max-width: 1200px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 14px;
 }
+
+/* unvisited link */
+a:link {
+    color: #3D694A;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #3D694A;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3D694A;
+    text-shadow: 1px 1px 1px #555;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
 
 p {
 	color: #FF4242;
@@ -38,7 +64,7 @@ header {
 }
 
 .page-header p {
-	line-height: 0.5px;
+	margin-top: -20px;
 }
 
 
@@ -81,7 +107,7 @@ section {
 	margin-left: 35%;
 	width: 60%;
 	opacity: 0.8;
-	color: #062351;
+	color: #051B3E;
 	text-align: justify;
 }
 
@@ -90,10 +116,18 @@ section {
 	list-style-type: none;
 }
 
+.poem {
+	line-height: 15px;
+}
+
 .content-footer {
 	background-color: #F4FAD2;
-	line-height: 10px;
 	height: 35px;
+	padding: 10px;
+}
+
+.content-footer p {
+	text-align: middle;
 }
 
 .page-footer {
@@ -101,7 +135,7 @@ section {
 	float: left;
 	width: 30%;
 	padding: 10px;
-	margin-top: -50%;
+	margin-top: -43%;
 	border-radius: 5px;
 }
 
