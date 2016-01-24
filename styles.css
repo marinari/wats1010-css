@@ -4,7 +4,7 @@
 html {
 	font-family: sans-serif;
 	padding-top: 30px;
-	background: gray;
+	background: #F0F2EB;
 	max-width: 1200px;
 }
 
@@ -20,7 +20,7 @@ li a {
 header {
 	width: 100%;
 	margin: 0 auto;
-	background-color: red;
+	background-color: #E1EDB9;
 	text-align: center;
 	height: 50px;
 
@@ -32,7 +32,7 @@ header {
 
 
 aside {
-	background-color: orange;
+	background-color: #D4EE5E;
 	float: left;
 	width: 30%;
 	margin-right: 30px;
@@ -59,27 +59,31 @@ aside {
 aside img{
 	width: 100px;
 	height: auto;
+	margin-bottom: 5px;
 
 }
 
 section {
-	background-color: green;
+	background-image: url(images/hiking-the-sand-dunes.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	margin-left: 35%;
 	width: 60%;
 }
+
 
 #content ul li {
 	list-style-type: none;
 }
 
 .content-footer {
-	background-color: white;
+	background-color: #F4FAD2;
 	line-height: 10px;
 	height: 35px;
 }
 
 .page-footer {
-	background-color: yellow;
+	background-color: #E1EDB9;
 	float: left;
 	width: 30%;
 	padding: 10px;
