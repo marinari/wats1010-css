@@ -3,9 +3,9 @@
 
 html {
 	background: #F0F2EB;
-	max-width: 1200px;
+	max-width: 1400px;
 	font-family: 'Questrial', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* unvisited link */
@@ -96,8 +96,6 @@ aside {
 aside img{
 	width: 100px;
 	height: auto;
-	margin-bottom: 5px;
-
 }
 
 section {
