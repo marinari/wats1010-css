@@ -1,6 +1,66 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+html {
+	font-family: sans-serif;
+	padding-top: 30px;
+	background: gray;
+	max-width: 1200px;
+}
+
 h1 {
-    color: green;
+    font-size: 20px;
+    color:#e5fff9;
+}
+
+li a {
+	text-decoration: none;
+}
+
+header .page-header {
+	margin: 30px;
+	background-color: red;
+
+}
+
+
+aside {
+	background-color: orange;
+	float: left;
+	width: 30%;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+.more-info ul li {
+	list-style-type: none;
+}
+
+aside img{
+	border-radius: 5px;
+	width: 50px;
+	height: auto;
+
+}
+
+section {
+	background-color: green;
+	margin-left: 35%;
+	width: 60%;
+}
+
+#content ul li {
+	list-style-type: none;
+}
+
+.content-footer {
+	background-color: white;
+}
+
+.page-footer {
+	background-color: yellow;
+	float: left;
+	width: 30%;
+	padding: 10px;
+	margin-top: -65%;
 }
